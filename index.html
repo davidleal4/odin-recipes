@@ -3,20 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>David Leal - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <p>Welcome to my <em>Special Diet Recipes</em> website!</p> 
-    <ol>
-        <li><a href="lasagna.html">Learn about Lasagna</a></li>
-    </ol> 
+    <!-- Header Section -->
+    <header id="home">
+        <div class="container">
+            <div class="header-content">
+                <h1>David Leal</h1>
+                <p>Web Developer & Digital Innovator</p>
+                <div class="social-links">
+                    <a href="mailto:davidlealwork@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                    </a>
+                    <a href="https://github.com/davidleal4" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/david-leal-163a832a9/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- About Section -->
+        <section id="about" class="fade-in">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/250x250/667eea/ffffff?text=David+Leal" alt="David Leal" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm David Leal, a passionate web developer with a strong foundation in modern web technologies. I enjoy creating innovative digital solutions that combine functionality with beautiful design.</p>
+                    
+                    <p>My journey in web development started with a curiosity about how websites work, and it has evolved into a deep passion for creating user-friendly applications that solve real-world problems.</p>
+                    
+                    <p>When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and staying up-to-date with the latest industry trends. I believe in continuous learning and always strive to improve my skills.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="fade-in">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript, React, Vue.js, responsive design, and modern CSS frameworks.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Python, PHP, database design, API development, and server management.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Development Tools</h3>
+                    <p>Git, VS Code, Docker, npm/yarn, webpack, and various development workflows.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile & UI/UX</h3>
+                    <p>Responsive design, mobile-first approach, user experience optimization, and design principles.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="fade-in">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-utensils"></i>
+                        Recipe Website
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Odin Recipes</h3>
+                        <p>A collection of delicious recipes with detailed instructions and nutritional information. Built as part of The Odin Project curriculum.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                        Dashboard App
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Analytics Dashboard</h3>
+                        <p>Interactive dashboard for data visualization with real-time updates and responsive design for optimal user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                        E-commerce
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with user authentication, payment processing, and inventory management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="fade-in">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always interested in new opportunities and collaborations. Whether you have a project in mind or just want to connect, feel free to reach out!</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:davidlealwork@gmail.com">davidlealwork@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/davidleal4" target="_blank">github.com/davidleal4</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/david-leal-163a832a9/" target="_blank">Connect with me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 David Leal. All rights reserved. Built with passion and modern web technologies.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for smooth scrolling and animations -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for animation
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(30px)';
+            section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            observer.observe(section);
+        });
+
+        // Active navigation highlighting
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-links a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
-<!DOCTYPE html>
-
-
-<body>
-    
-
-</body>
